@@ -102,16 +102,7 @@
         var secs = diffSecs % 60;
         var mins = Math.floor(diffSecs / 60) % 60;
         var hours = Math.floor(diffSecs / 60 / 60) % 24;
-        if ($.data($this[0], 'omitWeeks') == true)
-        {
-            days = Math.floor(diffSecs / 60 / 60 / 24);
-            weeks = Math.floor(diffSecs / 60 / 60 / 24 / 7);
-        }
-        else
-        {
-            days = Math.floor(diffSecs / 60 / 60 / 24) % 7;
-            weeks = Math.floor(diffSecs / 60 / 60 / 24 / 7);
-        }
+        days = Math.floor(diffSecs / 60 / 60 / 24);
 
         $this.dashChangeTo(id, 'seconds_dash', secs, duration ? duration : 800);
         $this.dashChangeTo(id, 'minutes_dash', mins, duration ? duration : 1200);
