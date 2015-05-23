@@ -7,9 +7,9 @@
 		jQuery('#countdown_dashboard').countDown({
 				targetDate: {
 					'day': 		7, // Put the date here
-					'month': 	5, // Month
-					'year': 	2014, // Year
-					'hour': 	0,
+					'month': 	6, // Month
+					'year': 	2015, // Year
+					'hour': 	19,
 					'min': 		0,
 					'sec': 		0
 				} //,omitWeeks: true
@@ -77,9 +77,9 @@
 		transition_speed		:	700,		// Speed of transition				
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
-										{image : 'placeholders/1400x950.gif'},
-										{image : 'placeholders/1400x950.gif'},  
-										{image : 'placeholders/1400x950.gif'}
+										{image : 'placeholders/1.jpg'},
+										{image : 'placeholders/2.jpg'},  
+										{image : 'placeholders/3.jpg'}
 									]
 		});	
 	
